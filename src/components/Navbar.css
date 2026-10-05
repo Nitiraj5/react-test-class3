@@ -1,0 +1,38 @@
+.menu{
+    
+    
+    background-color: slategray;
+     min-height: 55px;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    gap: 42px;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    
+}
+
+ul li{
+    cursor: pointer;
+    transition: color 0.2s ease;
+    
+}
+.menu ul li a{
+    
+    color: black;
+    text-decoration: none;
+
+
+}
+

@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  padding: 144px;
+  flex-wrap: wrap;
+  
+}
